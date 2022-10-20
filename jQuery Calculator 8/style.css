@@ -1,0 +1,78 @@
+body {
+  color: black;
+  font-family: cursive;
+  font-size: 20px;
+}
+#cal {
+  background-color: aqua;
+  width: 540px;
+  height: 360px;
+  border-radius: 20px;
+}
+.gridcon0 {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 10px;
+  background-color: aqua;
+  margin: auto;
+  padding: 10px;
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.gridcon1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  background-color: aqua;
+  margin: auto;
+  padding: 10px;
+  width: 500px;
+  height: 50px;
+}
+
+.gridcon2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+
+  background-color: aqua;
+  margin: auto;
+  padding: 10px;
+  width: 500px;
+  height: 50px;
+  border-radius: 20px;
+}
+.gridcon0 div {
+  border-radius: 5px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.gridcon1 div {
+  cursor: pointer;
+  border: solid green 3px;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.gridcon2 div {
+  cursor: pointer;
+  border: solid green 3px;
+  border-radius: 5px;
+  background-color: white;
+  width: 75px;
+  /* Without setting the same width here,the buttons will not have 
+    equal widths, even above, there is 
+    "grid-template-columns: auto auto auto auto auto auto ;"*/
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.gridcon1 div:hover,
+.gridcon2 div:hover {
+  background-color: yellow;
+}

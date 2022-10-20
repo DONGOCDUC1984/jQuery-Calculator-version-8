@@ -1,0 +1,3 @@
+# Git will ignore file php and Secret folder:
+*.php
+Secret/
